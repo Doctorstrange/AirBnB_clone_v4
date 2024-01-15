@@ -52,4 +52,6 @@ document.ready(function () {
         },
         dataType: "json",
     });
+    $(".filters button").bind("click", places_search);
+	places_search();
 });
